@@ -1,0 +1,140 @@
+/* styles.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {  font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f4f4f4;
+    line-height: 1;
+    
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+
+
+   
+}
+
+/* Header Section */
+header {
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black */
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+       margin-bottom: 10px;
+    font-size: 2.5em;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+}
+
+header nav ul li a:hover {
+    color: #ffcc00; /* Highlight color on hover */
+}
+
+/* Hero Section with Background Image */
+#hero-section {
+    background-image: url('images/background.jpg'); /* Path to your background image */
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+#hero-section h2 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+#hero-section p {
+    font-size: 1.5em;
+}
+
+/* Sport Section Styling */
+main section {
+    padding: 40px 20px;
+    margin: 20px 0;
+}
+
+main section h2 {
+    font-size: 2em;
+    margin-bottom: 15px;
+}
+
+main section p {
+    font-size: 1.2em;
+}
+
+/* Footer Section */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+  h1{  text-align: center;
+    background: linear-gradient(90deg, #ff0000, #ffff00, #ff00f3, #0033ff, #ff00c4, #ff0000);
+    background-size: 400%;
+    font-size: 50px;
+    padding: 20PX;
+    font-family: sans-serif;
+    letter-spacing: 10px;
+    font-weight: 600;
+    word-spacing: 5px;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    animation: animate 10s linear infinite;
+}
+
+@keyframes animate {
+    0% {
+        background-position: 0%;
+    }
+
+    100% {
+        background-position: 400%;
+    }
+}
+
+ h2{
+    font-size: 35px;
+    padding: 30px;
+ }
+ 
+   
+    
+
+
+   
+  
+
+
+
+
+
+
